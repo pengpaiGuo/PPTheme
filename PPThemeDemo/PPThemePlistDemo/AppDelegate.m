@@ -25,7 +25,7 @@
     navigationBar.theme_barTintColor = [PPThemeColorPicker pickerWithKeyPath:@"Global.barTintColor"];
     navigationBar.theme_titleTextAttributes = [PPThemeStringAttrPicker pickerWithKeyPath:@"Global.barTextColor" map:^NSDictionary<NSAttributedStringKey,id> *(id value){
         if ([value isKindOfClass:[NSString class]]) {
-            UIColor * color = [UIColor colorWithHexString:value];
+            UIColor * color = [PPThemeManager themeColorWithHex:value];
             NSShadow * shadow = [[NSShadow alloc]init];
             shadow.shadowOffset = CGSizeZero;
             NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
