@@ -7,7 +7,7 @@
 //
 
 #import "PPThemeManager+Plist.h"
-#import "UIColor+PPHex.h"
+#import <UIKit/UIKit.h>
 
 @implementation PPThemeManager (Plist)
 
@@ -41,7 +41,7 @@
 
 + (UIColor *)colorForPath:(NSString *)path {
     NSString * hexStr = [self stringForPath:path];
-    return [UIColor colorWithHexString:hexStr];
+    return [PPThemeManager themeColorWithHex:hexStr];
 }
 
 + (UIImage *)imageForPath:(NSString *)path {

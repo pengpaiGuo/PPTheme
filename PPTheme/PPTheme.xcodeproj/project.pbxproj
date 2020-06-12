@@ -11,12 +11,10 @@
 		2F0BFCBC2492369900C1A5BC /* PPThemeManager+Index.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC832492369900C1A5BC /* PPThemeManager+Index.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0BFCBD2492369900C1A5BC /* UIResponder+PPTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0BFCBE2492369900C1A5BC /* NSObject+PPTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BFC852492369900C1A5BC /* NSObject+PPTheme.m */; platformFilter = ios; };
-		2F0BFCBF2492369A00C1A5BC /* UIColor+PPHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC862492369900C1A5BC /* UIColor+PPHex.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0BFCC02492369A00C1A5BC /* PPThemeManager+Plist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BFC872492369900C1A5BC /* PPThemeManager+Plist.m */; platformFilter = ios; };
 		2F0BFCC12492369A00C1A5BC /* UIResponder+PPTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */; platformFilter = ios; };
 		2F0BFCC22492369A00C1A5BC /* PPThemeManager+Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BFC892492369900C1A5BC /* PPThemeManager+Index.m */; platformFilter = ios; };
 		2F0BFCC32492369A00C1A5BC /* NSObject+PPTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC8A2492369900C1A5BC /* NSObject+PPTheme.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		2F0BFCC42492369A00C1A5BC /* UIColor+PPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BFC8B2492369900C1A5BC /* UIColor+PPHex.m */; platformFilter = ios; };
 		2F0BFCC52492369A00C1A5BC /* PPThemeManager+Plist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC8C2492369900C1A5BC /* PPThemeManager+Plist.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0BFCC62492369A00C1A5BC /* UIRefreshControl+PPAttrTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC8E2492369900C1A5BC /* UIRefreshControl+PPAttrTitle.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0BFCC72492369A00C1A5BC /* UITextField+PPAttrPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0BFC8F2492369900C1A5BC /* UITextField+PPAttrPlaceholder.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,12 +71,10 @@
 		2F0BFC832492369900C1A5BC /* PPThemeManager+Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PPThemeManager+Index.h"; sourceTree = "<group>"; };
 		2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PPTheme.h"; sourceTree = "<group>"; };
 		2F0BFC852492369900C1A5BC /* NSObject+PPTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PPTheme.m"; sourceTree = "<group>"; };
-		2F0BFC862492369900C1A5BC /* UIColor+PPHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPHex.h"; sourceTree = "<group>"; };
 		2F0BFC872492369900C1A5BC /* PPThemeManager+Plist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PPThemeManager+Plist.m"; sourceTree = "<group>"; };
 		2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PPTheme.m"; sourceTree = "<group>"; };
 		2F0BFC892492369900C1A5BC /* PPThemeManager+Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PPThemeManager+Index.m"; sourceTree = "<group>"; };
 		2F0BFC8A2492369900C1A5BC /* NSObject+PPTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PPTheme.h"; sourceTree = "<group>"; };
-		2F0BFC8B2492369900C1A5BC /* UIColor+PPHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPHex.m"; sourceTree = "<group>"; };
 		2F0BFC8C2492369900C1A5BC /* PPThemeManager+Plist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PPThemeManager+Plist.h"; sourceTree = "<group>"; };
 		2F0BFC8E2492369900C1A5BC /* UIRefreshControl+PPAttrTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+PPAttrTitle.h"; sourceTree = "<group>"; };
 		2F0BFC8F2492369900C1A5BC /* UITextField+PPAttrPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PPAttrPlaceholder.h"; sourceTree = "<group>"; };
@@ -158,11 +154,10 @@
 		2F0BFC79249233CD00C1A5BC /* PPTheme */ = {
 			isa = PBXGroup;
 			children = (
+				2F0BFE012493B7B000C1A5BC /* PPThemeManager */,
 				2F0BFC8D2492369900C1A5BC /* PPThemeAttributes */,
 				2F0BFC822492369900C1A5BC /* PPThemeExt */,
 				2F0BFC982492369900C1A5BC /* PPThemePickers */,
-				2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */,
-				2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */,
 				2F0BFC7A249233CD00C1A5BC /* PPTheme.h */,
 				2F0BFC7B249233CD00C1A5BC /* Info.plist */,
 			);
@@ -172,16 +167,10 @@
 		2F0BFC822492369900C1A5BC /* PPThemeExt */ = {
 			isa = PBXGroup;
 			children = (
-				2F0BFC972492369900C1A5BC /* PPThemeManager.h */,
-				2F0BFC962492369900C1A5BC /* PPThemeManager.m */,
 				2F0BFC8A2492369900C1A5BC /* NSObject+PPTheme.h */,
 				2F0BFC852492369900C1A5BC /* NSObject+PPTheme.m */,
-				2F0BFC832492369900C1A5BC /* PPThemeManager+Index.h */,
-				2F0BFC892492369900C1A5BC /* PPThemeManager+Index.m */,
-				2F0BFC8C2492369900C1A5BC /* PPThemeManager+Plist.h */,
-				2F0BFC872492369900C1A5BC /* PPThemeManager+Plist.m */,
-				2F0BFC862492369900C1A5BC /* UIColor+PPHex.h */,
-				2F0BFC8B2492369900C1A5BC /* UIColor+PPHex.m */,
+				2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */,
+				2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */,
 			);
 			path = PPThemeExt;
 			sourceTree = "<group>";
@@ -244,6 +233,19 @@
 			path = PPThemePickers;
 			sourceTree = "<group>";
 		};
+		2F0BFE012493B7B000C1A5BC /* PPThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BFC972492369900C1A5BC /* PPThemeManager.h */,
+				2F0BFC962492369900C1A5BC /* PPThemeManager.m */,
+				2F0BFC832492369900C1A5BC /* PPThemeManager+Index.h */,
+				2F0BFC892492369900C1A5BC /* PPThemeManager+Index.m */,
+				2F0BFC8C2492369900C1A5BC /* PPThemeManager+Plist.h */,
+				2F0BFC872492369900C1A5BC /* PPThemeManager+Plist.m */,
+			);
+			path = PPThemeManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -268,7 +270,6 @@
 				2F0BFCF22492369A00C1A5BC /* PPThemeImagePicker.h in Headers */,
 				2F0BFCD72492369A00C1A5BC /* PPThemeColorPicker.h in Headers */,
 				2F0BFCC72492369A00C1A5BC /* UITextField+PPAttrPlaceholder.h in Headers */,
-				2F0BFCBF2492369A00C1A5BC /* UIColor+PPHex.h in Headers */,
 				2F0BFCBC2492369900C1A5BC /* PPThemeManager+Index.h in Headers */,
 				2F0BFCC82492369A00C1A5BC /* NSAttributedString+PPMerge.h in Headers */,
 				2F0BFCDB2492369A00C1A5BC /* PPThemeCGFloatPicker.h in Headers */,
@@ -378,7 +379,6 @@
 				2F0BFCD32492369A00C1A5BC /* PPThemeKeyboardAppearPicker.m in Sources */,
 				2F0BFCEC2492369A00C1A5BC /* PPThemeStatusBarStylePicker.m in Sources */,
 				2F0BFCBE2492369900C1A5BC /* NSObject+PPTheme.m in Sources */,
-				2F0BFCC42492369A00C1A5BC /* UIColor+PPHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +508,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.2.2;
+				CURRENT_PROJECT_VERSION = 0.2.3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 34SM73J3J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -522,7 +522,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.2;
+				MARKETING_VERSION = 0.2.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pai.PPTheme;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -539,7 +539,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.2.2;
+				CURRENT_PROJECT_VERSION = 0.2.3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 34SM73J3J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -553,7 +553,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.2;
+				MARKETING_VERSION = 0.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pai.PPTheme;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

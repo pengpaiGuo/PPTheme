@@ -7,13 +7,13 @@
 //
 
 #import "PPThemeManager+Index.h"
-#import "UIColor+PPHex.h"
+#import <UIKit/UIKit.h>
 
 @implementation PPThemeManager (Index)
 
 + (UIColor *)colorElementForArray:(NSArray *)array {
     NSInteger current = [self currentThemeIndex];
-    return [UIColor colorWithHexString:array[current]];
+    return [PPThemeManager themeColorWithHex:array[current]];
 }
 
 + (UIImage *)imageElementForArray:(NSArray *)array {

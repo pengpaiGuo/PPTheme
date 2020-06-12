@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define PPThemeUpdateNotification @"PPThemeUpdateNotification"
 
@@ -37,6 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)restoreLastTheme;
 + (void)saveLastTheme;
 
++ (UIColor *)themeColorWithHex:(id)hexString;
 @end
 
 NS_ASSUME_NONNULL_END

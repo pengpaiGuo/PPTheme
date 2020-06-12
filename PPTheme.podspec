@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PPTheme"
 
-  spec.version      = "0.2.2"
+  spec.version      = "0.2.3"
 
   spec.summary      = "Theme for iOS 动态切换主题/换肤 Dark Model 暗黑模式."
 
@@ -18,13 +18,18 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "PPTheme/PPTheme/*.{h,m}"
 
-  spec.subspec "PPThemeExt" do |sss|
-    sss.source_files = "PPTheme/PPTheme/PPThemeExt/*.{h,m}"
+  spec.subspec "PPThemeManager" do |sss|
+    sss.source_files = "PPTheme/PPTheme/PPThemeManager/*.{h,m}"
   end
 
   spec.subspec "PPThemePickers" do |sss|
     sss.source_files = "PPTheme/PPTheme/PPThemePickers/*.{h,m}"
-    sss.dependency "PPTheme/PPThemeExt"
+    sss.dependency "PPTheme/PPThemeManager"
+  end
+
+  spec.subspec "PPThemeExt" do |sss|
+    sss.source_files = "PPTheme/PPTheme/PPThemeExt/*.{h,m}"
+    sss.dependency "PPTheme/PPThemePickers" 
   end
 
   spec.subspec "PPThemeAttributes" do |sss|
