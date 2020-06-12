@@ -19,5 +19,4 @@ FOUNDATION_EXPORT const unsigned char PPThemeVersionString[];
 #import <PPTheme/PPThemeManager.h>
 #import <PPTheme/UIResponder+PPTheme.h>
 #import <PPTheme/PPAttributesHeader.h>
-#import <PPTheme/UIColor+PPHex.h>
 
