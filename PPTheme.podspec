@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PPTheme"
 
-  spec.version      = "0.2.0"
+  spec.version      = "0.2.2"
 
   spec.summary      = "Theme for iOS 动态切换主题/换肤 Dark Model 暗黑模式."
 
