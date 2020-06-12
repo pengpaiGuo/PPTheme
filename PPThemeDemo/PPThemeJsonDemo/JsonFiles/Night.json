@@ -1,0 +1,25 @@
+{
+  "SwitchNightCell": {
+    "iconImage": "icon_night_light"
+  },
+  "ListViewController": {
+    "separatorColor": "#ECF0F1"
+  },
+  "ChangeThemeCell": {
+    "buttonTitleColorHighlighted": "#AAAAAA",
+    "buttonTitleColorNormal": "#000000",
+    "buttonBackgroundColor": "#ECF0F1"
+  },
+  "SelectThemeCell": {
+    "iconImage": "icon_theme_light"
+  },
+  "UIStatusBarStyle": "DarkContent",
+  "Global": {
+    "textFont": "PingFangSC-Regular,30",
+    "textBigFont": "PingFangSC-Medium,40",
+    "textColor": "#ECF0F1",
+    "backgroundColor": "#292b38",
+    "barTintColor": "#01040D",
+    "barTextColor": "#FFFFFF"
+  }
+}

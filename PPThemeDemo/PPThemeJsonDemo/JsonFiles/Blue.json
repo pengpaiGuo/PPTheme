@@ -1,0 +1,29 @@
+{
+    "SwitchNightCell":{
+        "iconImage":"icon_night_dark"
+        
+    },
+    "ListViewController":{
+        "separatorColor":"#C6C5C5"
+        
+    },"ChangeThemeCell":{
+        "buttonTitleColorHighlighted":"#555555",
+        "buttonTitleColorNormal":"#FFFFFF",
+        "buttonBackgroundColor":"#56ABE4"
+        
+    },"SelectThemeCell":{
+        "iconImage":"icon_theme_blue"
+        
+    },"UIStatusBarStyle":"LightContent",
+    
+      "Global":{
+        "textColor":"#000000",
+        "textFont": "PingFangSC-Medium,16",
+        "textBigFont": "PingFangSC-Medium,22",
+        "backgroundColor":"#FFFFFF",
+        "barTintColor":"#56ABE4",
+        "barTextColor":"#FFFFFF"
+        
+    }
+    
+}
