@@ -160,9 +160,9 @@
 			children = (
 				2F0BFC8D2492369900C1A5BC /* PPThemeAttributes */,
 				2F0BFC822492369900C1A5BC /* PPThemeExt */,
-				2F0BFC972492369900C1A5BC /* PPThemeManager.h */,
-				2F0BFC962492369900C1A5BC /* PPThemeManager.m */,
 				2F0BFC982492369900C1A5BC /* PPThemePickers */,
+				2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */,
+				2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */,
 				2F0BFC7A249233CD00C1A5BC /* PPTheme.h */,
 				2F0BFC7B249233CD00C1A5BC /* Info.plist */,
 			);
@@ -172,6 +172,8 @@
 		2F0BFC822492369900C1A5BC /* PPThemeExt */ = {
 			isa = PBXGroup;
 			children = (
+				2F0BFC972492369900C1A5BC /* PPThemeManager.h */,
+				2F0BFC962492369900C1A5BC /* PPThemeManager.m */,
 				2F0BFC8A2492369900C1A5BC /* NSObject+PPTheme.h */,
 				2F0BFC852492369900C1A5BC /* NSObject+PPTheme.m */,
 				2F0BFC832492369900C1A5BC /* PPThemeManager+Index.h */,
@@ -180,8 +182,6 @@
 				2F0BFC872492369900C1A5BC /* PPThemeManager+Plist.m */,
 				2F0BFC862492369900C1A5BC /* UIColor+PPHex.h */,
 				2F0BFC8B2492369900C1A5BC /* UIColor+PPHex.m */,
-				2F0BFC842492369900C1A5BC /* UIResponder+PPTheme.h */,
-				2F0BFC882492369900C1A5BC /* UIResponder+PPTheme.m */,
 			);
 			path = PPThemeExt;
 			sourceTree = "<group>";

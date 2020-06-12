@@ -16,18 +16,20 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pengpaiGuo/PPTheme.git", :tag => spec.version }
 
-  spec.source_files  = "PPTheme/*.{h,m}"
+  spec.source_files  = "PPTheme/PPTheme/*.{h,m}"
+
+  spec.subspec "PPThemeExt" do |sss|
+    sss.source_files = "PPTheme/PPTheme/PPThemeExt/*.{h,m}"
+  end
 
   spec.subspec "PPThemePickers" do |sss|
-    sss.source_files = "PPTheme/PPThemePickers/*.{h,m}"
+    sss.source_files = "PPTheme/PPTheme/PPThemePickers/*.{h,m}"
+    sss.dependency "PPTheme/PPThemeExt"
   end
 
   spec.subspec "PPThemeAttributes" do |sss|
-    sss.source_files = "PPTheme/PPThemeAttributes/*.{h,m}"
+    sss.source_files = "PPTheme/PPTheme/PPThemeAttributes/*.{h,m}"
   end
 
-  spec.subspec "PPThemeExt" do |sss|
-    sss.source_files = "PPTheme/PPThemeExt/*.{h,m}"
-  end
 
 end
